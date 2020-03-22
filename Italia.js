@@ -19,7 +19,7 @@ alert("ESEMPIO: Se vuoi ricevere il bollettino del 14 marzo, dovrai scrivere nel
 var newdate = prompt("Scrivi il numero del giorno del bollettino che vuoi ti venga mostrato");
 
 switch (newdate) {
-	case 14:
+case 14:
 document.writeln("Bollettino del 14/03" + "<br />");
 document.writeln(g14.positivi + " positivi" + "<br />");
 document.writeln(g14.guariti + " guariti" + "<br />");
@@ -99,4 +99,7 @@ document.writeln(g22.morti + " morti" + "<br />");
 document.writeln(g22.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
+
+default:
+document.writeln("Data non trovata");
 }
