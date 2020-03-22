@@ -1,12 +1,12 @@
 ----------------------------------------------------------------------------------
-******** File README del progetto ********    Qui dovresti descrivere il progetto.
-Chi legge questo file, pur non sapendo nulla del progetto, dovrebbe ottenere tutte
-le informazioni di cui ha bisogno. Probabilmente le informazioni essenziali sono:
+******** File README del progetto ********    
 ----------------------------------------------------------------------------------
 
-NOME DEL PROGETTO:
-OBIETTIVO DEL PROGETTO
-VERSIONE oppure DATA:
-COME AVVIARE IL PROGETTO:
-AUTORI:
-ISTRUZIONI PER L'UTENTE:
+NOME DEL PROGETTO: Coronavirus JavaScript version
+VERSIONE: 0.7
+AUTORE: fededev01
+
+OBIETTIVO DEL PROGETTO: Il programma ha come scopo quello di mostrare il bollettino della Protezione Civile diramato nella data indicata dall'utente. 
+ISTRUZIONI PER L'UTENTE: Per permettere al programma di avviarsi correttamente, occore indicare attraverso due cifre, il bollettino che si vuole vedere. Ad esempio, se l'utente desidera 
+ricevere il bollettino del 14 marzo, dovrà scrivere nel prompt SOLO la cifra 14.
+
