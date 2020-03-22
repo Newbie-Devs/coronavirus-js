@@ -19,7 +19,7 @@ alert("ESEMPIO: Se vuoi ricevere il bollettino del 14 marzo, dovrai scrivere nel
 var newdate = prompt("Scrivi il numero del giorno del bollettino che vuoi ti venga mostrato");
 
 switch (newdate) {
-case 14:
+case "14":
 document.writeln("Bollettino del 14/03" + "<br />");
 document.writeln(g14.positivi + " positivi" + "<br />");
 document.writeln(g14.guariti + " guariti" + "<br />");
@@ -28,7 +28,7 @@ document.writeln(g14.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
-case 15:
+case "15":
 document.writeln("Bollettino del 15/03" + "<br />"); 
 document.writeln(g15.positivi + " positivi" + "<br />");
 document.writeln(g15.guariti + " guariti" + "<br />");
@@ -37,7 +37,7 @@ document.writeln(g15.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
-case 16:
+case "16":
 document.writeln("Bollettino del 16/03" + "<br />");
 document.writeln(g16.positivi + " positivi" + "<br />");
 document.writeln(g16.guariti + " guariti" + "<br />");
@@ -46,7 +46,7 @@ document.writeln(g16.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
-case 17:
+case "17":
 document.writeln("Bollettino del 17/03" + "<br />"); 
 document.writeln(g17.positivi + " positivi" + "<br />");
 document.writeln(g17.guariti + " guariti" + "<br />");
@@ -55,7 +55,7 @@ document.writeln(g17.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
-case 18:
+case "18":
 document.writeln("Bollettino del 18/03" + "<br />"); 
 document.writeln(g18.positivi + " positivi" + "<br />");
 document.writeln(g18.guariti + " guariti" + "<br />");
@@ -64,7 +64,7 @@ document.writeln(g18.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
-case 19:
+case "19":
 document.writeln("Bollettino del 19/03" + "<br />"); 
 document.writeln(g19.positivi + " positivi" + "<br />");
 document.writeln(g19.guariti + " guariti" + "<br />");
@@ -73,7 +73,7 @@ document.writeln(g19.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
-case 20:
+case "20":
 document.writeln("Bollettino del 20/03" + "<br />"); 
 document.writeln(g20.positivi + " positivi" + "<br />");
 document.writeln(g20.guariti + " guariti" + "<br />");
@@ -82,7 +82,7 @@ document.writeln(g20.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
-case 21:
+case "21":
 document.writeln("Bollettino del 21/03" + "<br />"); 
 document.writeln(g21.positivi + " positivi" + "<br />");
 document.writeln(g21.guariti + " guariti" + "<br />");
@@ -91,7 +91,7 @@ document.writeln(g21.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
-case 22:
+case "22":
 document.writeln("Bollettino del 22/03" + "<br />"); 
 document.writeln(g22.positivi + " positivi" + "<br />");
 document.writeln(g22.guariti + " guariti" + "<br />");
