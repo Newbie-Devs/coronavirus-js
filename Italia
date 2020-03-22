@@ -1,0 +1,9 @@
+function giorno(positivi, guariti, morti, totali) 
+{
+this.positivi = positivi;
+this.guariti = guariti;
+this.morti = morti;
+this.totali = totali;
+}
+var 14 = new giorno(
+var 15 = new giorno(
