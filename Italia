@@ -20,3 +20,12 @@ document.write(14.positivi);
 document.write(14.guariti);
 document.write(14.morti);
 document.write(14.totali);
+document.write("Bollettino del 15/03");
+
+document.write(15.positivi);
+
+document.write(15.guariti);
+
+document.write(15.morti);
+
+document.write(15.totali);
