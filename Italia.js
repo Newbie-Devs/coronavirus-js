@@ -1,5 +1,5 @@
 //author: fededev01
-//version: 1.0.4
+//version: 1.0.6
 
 function giorno(positivi, guariti, morti, totali) 
 {
@@ -29,6 +29,9 @@ var g19 = new giorno(33190, 4440, 3405, 41035);
 var g20 = new giorno(37860, 5129, 4032, 47021);
 var g21 = new giorno(42681, 6072, 4825, 53578);
 var g22 = new giorno(46638, 7024, 5476, 59138); 
+var g23 = new giorno(50418, 7432, 6077, 63927);
+var g24 = new giorno(54030, 8326, 6820, 69176);
+
 
 alert("ESEMPIO: Se vuoi ricevere il bollettino del 14 marzo, dovrai scrivere nel prompt SOLO la cifra 14");
 var newdate = prompt("Scrivi il numero del giorno del bollettino che vuoi ti venga mostrato");
@@ -224,6 +227,24 @@ document.writeln(g22.positivi + " positivi" + "<br />");
 document.writeln(g22.guariti + " guariti" + "<br />");
 document.writeln(g22.morti + " morti" + "<br />");
 document.writeln(g22.totali + " totali" + "<br />");
+document.writeln("<br />");
+break;
+
+case "23":
+document.writeln("Bollettino del 23/03" + "<br />"); 
+document.writeln(g23.positivi + " positivi" + "<br />");
+document.writeln(g23.guariti + " guariti" + "<br />");
+document.writeln(g23.morti + " morti" + "<br />");
+document.writeln(g23.totali + " totali" + "<br />");
+document.writeln("<br />");
+break;
+
+case "24":
+document.writeln("Bollettino del 24/03" + "<br />"); 
+document.writeln(g24.positivi + " positivi" + "<br />");
+document.writeln(g24.guariti + " guariti" + "<br />");
+document.writeln(g24.morti + " morti" + "<br />");
+document.writeln(g24.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
