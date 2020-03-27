@@ -31,9 +31,9 @@ var g21 = new giorno(42681, 6072, 4825, 53578);
 var g22 = new giorno(46638, 7024, 5476, 59138);
 var g23 = new giorno(50418, 7432, 6077, 63927);
 var g24 = new giorno(54030, 8326, 6820, 69176);
-var g25 = new giorno(, , , );
-var g26 = new giorno(, , , );
-var g27 = new giorno(, , , );
+var g25 = new giorno(57521, 9362, 7503, 74386);
+var g26 = new giorno(62013, 10361, 8165, 80539);
+var g27 = new giorno(66414, 10950, 9134, 86498);
 
 
 alert("ESEMPIO: Se vuoi ricevere il bollettino del 14 marzo, dovrai scrivere nel prompt SOLO la cifra 14");
