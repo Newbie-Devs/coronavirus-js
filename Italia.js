@@ -1,5 +1,5 @@
 //author: fededev01
-//version: 1.0.6
+//version: 1.0.7
 
 function giorno(positivi, guariti, morti, totali) 
 {
@@ -28,9 +28,12 @@ var g18 = new giorno(28710, 4025, 2978, 35713);
 var g19 = new giorno(33190, 4440, 3405, 41035);
 var g20 = new giorno(37860, 5129, 4032, 47021);
 var g21 = new giorno(42681, 6072, 4825, 53578);
-var g22 = new giorno(46638, 7024, 5476, 59138); 
+var g22 = new giorno(46638, 7024, 5476, 59138);
 var g23 = new giorno(50418, 7432, 6077, 63927);
 var g24 = new giorno(54030, 8326, 6820, 69176);
+var g25 = new giorno(, , , );
+var g26 = new giorno(, , , );
+var g27 = new giorno(, , , );
 
 
 alert("ESEMPIO: Se vuoi ricevere il bollettino del 14 marzo, dovrai scrivere nel prompt SOLO la cifra 14");
@@ -38,7 +41,7 @@ var newdate = prompt("Scrivi il numero del giorno del bollettino che vuoi ti ven
 
 switch (newdate) {
 case "1":
-document.writeln("Bollettino del 01/03" + "<br />");
+document.writeln("Bollettino dell'1 marzo" + "<br />");
 document.writeln(g1.positivi + " positivi" + "<br />");
 document.writeln(g1.guariti + " guariti" + "<br />");
 document.writeln(g1.morti + " morti" + "<br />");
@@ -47,7 +50,7 @@ document.writeln("<br />");
 break;
 
 case "2":
-document.writeln("Bollettino del 02/03" + "<br />"); 
+document.writeln("Bollettino del 2 marzo" + "<br />"); 
 document.writeln(g2.positivi + " positivi" + "<br />");
 document.writeln(g2.guariti + " guariti" + "<br />");
 document.writeln(g2.morti + " morti" + "<br />");
@@ -56,7 +59,7 @@ document.writeln("<br />");
 break;
 
 case "3":
-document.writeln("Bollettino del 03/03" + "<br />");
+document.writeln("Bollettino del 3 marzo" + "<br />");
 document.writeln(g3.positivi + " positivi" + "<br />");
 document.writeln(g3.guariti + " guariti" + "<br />");
 document.writeln(g3.morti + " morti" + "<br />");
@@ -65,7 +68,7 @@ document.writeln("<br />");
 break;
 	
 case "4":
-document.writeln("Bollettino del 04/03" + "<br />");
+document.writeln("Bollettino del 4 marzo" + "<br />");
 document.writeln(g4.positivi + " positivi" + "<br />");
 document.writeln(g4.guariti + " guariti" + "<br />");
 document.writeln(g4.morti + " morti" + "<br />");
@@ -74,7 +77,7 @@ document.writeln("<br />");
 break;
 
 case "5":
-document.writeln("Bollettino del 05/03" + "<br />"); 
+document.writeln("Bollettino del 5 marzo" + "<br />"); 
 document.writeln(g5.positivi + " positivi" + "<br />");
 document.writeln(g5.guariti + " guariti" + "<br />");
 document.writeln(g5.morti + " morti" + "<br />");
@@ -83,7 +86,7 @@ document.writeln("<br />");
 break;
 
 case "6":
-document.writeln("Bollettino del 06/03" + "<br />");
+document.writeln("Bollettino del 6 marzo" + "<br />");
 document.writeln(g6.positivi + " positivi" + "<br />");
 document.writeln(g6.guariti + " guariti" + "<br />");
 document.writeln(g6.morti + " morti" + "<br />");
@@ -92,7 +95,7 @@ document.writeln("<br />");
 break;
 
 case "7":
-document.writeln("Bollettino del 07/03" + "<br />"); 
+document.writeln("Bollettino del 7 marzo" + "<br />"); 
 document.writeln(g7.positivi + " positivi" + "<br />");
 document.writeln(g7.guariti + " guariti" + "<br />");
 document.writeln(g7.morti + " morti" + "<br />");
@@ -101,7 +104,7 @@ document.writeln("<br />");
 break;
 
 case "8":
-document.writeln("Bollettino del 08/03" + "<br />"); 
+document.writeln("Bollettino dell'8 marzo" + "<br />"); 
 document.writeln(g8.positivi + " positivi" + "<br />");
 document.writeln(g8.guariti + " guariti" + "<br />");
 document.writeln(g8.morti + " morti" + "<br />");
@@ -114,7 +117,7 @@ document.writeln("Non è stato trovato alcun bollettino corrispondente al 9 marz
 break;
 
 case "10":
-document.writeln("Bollettino del 10/03" + "<br />"); 
+document.writeln("Bollettino del 10 marzo" + "<br />"); 
 document.writeln(g10.positivi + " positivi" + "<br />");
 document.writeln(g10.guariti + " guariti" + "<br />");
 document.writeln(g10.morti + " morti" + "<br />");
@@ -123,7 +126,7 @@ document.writeln("<br />");
 break;
 
 case "11":
-document.writeln("Bollettino del 11/03" + "<br />"); 
+document.writeln("Bollettino dell'11 marzo" + "<br />"); 
 document.writeln(g11.positivi + " positivi" + "<br />");
 document.writeln(g11.guariti + " guariti" + "<br />");
 document.writeln(g11.morti + " morti" + "<br />");
@@ -132,7 +135,7 @@ document.writeln("<br />");
 break;
 
 case "12":
-document.writeln("Bollettino del 12/03" + "<br />"); 
+document.writeln("Bollettino del 12 marzo" + "<br />"); 
 document.writeln(g12.positivi + " positivi" + "<br />");
 document.writeln(g12.guariti + " guariti" + "<br />");
 document.writeln(g12.morti + " morti" + "<br />");
@@ -141,7 +144,7 @@ document.writeln("<br />");
 break;
 
 case "13":
-document.writeln("Bollettino del 13/03" + "<br />"); 
+document.writeln("Bollettino del 13 marzo" + "<br />"); 
 document.writeln(g13.positivi + " positivi" + "<br />");
 document.writeln(g13.guariti + " guariti" + "<br />");
 document.writeln(g13.morti + " morti" + "<br />");
@@ -150,7 +153,7 @@ document.writeln("<br />");
 break;	
 	
 case "14":
-document.writeln("Bollettino del 14/03" + "<br />");
+document.writeln("Bollettino del 14 marzo" + "<br />");
 document.writeln(g14.positivi + " positivi" + "<br />");
 document.writeln(g14.guariti + " guariti" + "<br />");
 document.writeln(g14.morti + " morti" + "<br />");
@@ -159,7 +162,7 @@ document.writeln("<br />");
 break;
 
 case "15":
-document.writeln("Bollettino del 15/03" + "<br />"); 
+document.writeln("Bollettino del 15 marzo" + "<br />"); 
 document.writeln(g15.positivi + " positivi" + "<br />");
 document.writeln(g15.guariti + " guariti" + "<br />");
 document.writeln(g15.morti + " morti" + "<br />");
@@ -168,7 +171,7 @@ document.writeln("<br />");
 break;
 
 case "16":
-document.writeln("Bollettino del 16/03" + "<br />");
+document.writeln("Bollettino del 16 marzo" + "<br />");
 document.writeln(g16.positivi + " positivi" + "<br />");
 document.writeln(g16.guariti + " guariti" + "<br />");
 document.writeln(g16.morti + " morti" + "<br />");
@@ -177,7 +180,7 @@ document.writeln("<br />");
 break;
 
 case "17":
-document.writeln("Bollettino del 17/03" + "<br />"); 
+document.writeln("Bollettino del 17 marzo" + "<br />"); 
 document.writeln(g17.positivi + " positivi" + "<br />");
 document.writeln(g17.guariti + " guariti" + "<br />");
 document.writeln(g17.morti + " morti" + "<br />");
@@ -186,7 +189,7 @@ document.writeln("<br />");
 break;
 
 case "18":
-document.writeln("Bollettino del 18/03" + "<br />"); 
+document.writeln("Bollettino del 18 marzo" + "<br />"); 
 document.writeln(g18.positivi + " positivi" + "<br />");
 document.writeln(g18.guariti + " guariti" + "<br />");
 document.writeln(g18.morti + " morti" + "<br />");
@@ -195,7 +198,7 @@ document.writeln("<br />");
 break;
 
 case "19":
-document.writeln("Bollettino del 19/03" + "<br />"); 
+document.writeln("Bollettino del 19 marzo" + "<br />"); 
 document.writeln(g19.positivi + " positivi" + "<br />");
 document.writeln(g19.guariti + " guariti" + "<br />");
 document.writeln(g19.morti + " morti" + "<br />");
@@ -204,7 +207,7 @@ document.writeln("<br />");
 break;
 
 case "20":
-document.writeln("Bollettino del 20/03" + "<br />"); 
+document.writeln("Bollettino del 20 marzo" + "<br />"); 
 document.writeln(g20.positivi + " positivi" + "<br />");
 document.writeln(g20.guariti + " guariti" + "<br />");
 document.writeln(g20.morti + " morti" + "<br />");
@@ -213,7 +216,7 @@ document.writeln("<br />");
 break;
 
 case "21":
-document.writeln("Bollettino del 21/03" + "<br />"); 
+document.writeln("Bollettino del 21 marzo" + "<br />"); 
 document.writeln(g21.positivi + " positivi" + "<br />");
 document.writeln(g21.guariti + " guariti" + "<br />");
 document.writeln(g21.morti + " morti" + "<br />");
@@ -222,7 +225,7 @@ document.writeln("<br />");
 break;
 
 case "22":
-document.writeln("Bollettino del 22/03" + "<br />"); 
+document.writeln("Bollettino del 22 marzo" + "<br />"); 
 document.writeln(g22.positivi + " positivi" + "<br />");
 document.writeln(g22.guariti + " guariti" + "<br />");
 document.writeln(g22.morti + " morti" + "<br />");
@@ -231,7 +234,7 @@ document.writeln("<br />");
 break;
 
 case "23":
-document.writeln("Bollettino del 23/03" + "<br />"); 
+document.writeln("Bollettino del 23 marzo" + "<br />"); 
 document.writeln(g23.positivi + " positivi" + "<br />");
 document.writeln(g23.guariti + " guariti" + "<br />");
 document.writeln(g23.morti + " morti" + "<br />");
@@ -240,11 +243,38 @@ document.writeln("<br />");
 break;
 
 case "24":
-document.writeln("Bollettino del 24/03" + "<br />"); 
+document.writeln("Bollettino del 24 marzo" + "<br />"); 
 document.writeln(g24.positivi + " positivi" + "<br />");
 document.writeln(g24.guariti + " guariti" + "<br />");
 document.writeln(g24.morti + " morti" + "<br />");
 document.writeln(g24.totali + " totali" + "<br />");
+document.writeln("<br />");
+break;
+
+case "25":
+document.writeln("Bollettino del 25 marzo" + "<br />"); 
+document.writeln(g25.positivi + " positivi" + "<br />");
+document.writeln(g25.guariti + " guariti" + "<br />");
+document.writeln(g25.morti + " morti" + "<br />");
+document.writeln(g25.totali + " totali" + "<br />");
+document.writeln("<br />");
+break;
+
+case "26":
+document.writeln("Bollettino del 26 marzo" + "<br />"); 
+document.writeln(g26.positivi + " positivi" + "<br />");
+document.writeln(g26.guariti + " guariti" + "<br />");
+document.writeln(g26.morti + " morti" + "<br />");
+document.writeln(g26.totali + " totali" + "<br />");
+document.writeln("<br />");
+break;
+
+case "27":
+document.writeln("Bollettino del 27 marzo" + "<br />"); 
+document.writeln(g27.positivi + " positivi" + "<br />");
+document.writeln(g27.guariti + " guariti" + "<br />");
+document.writeln(g27.morti + " morti" + "<br />");
+document.writeln(g27.totali + " totali" + "<br />");
 document.writeln("<br />");
 break;
 
